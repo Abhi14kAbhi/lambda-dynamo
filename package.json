@@ -1,0 +1,27 @@
+{
+  "name": "lambda-dynamo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhi14kAbhi/lambda-dynamo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhi14kAbhi/lambda-dynamo/issues"
+  },
+  "homepage": "https://github.com/Abhi14kAbhi/lambda-dynamo#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.46.0",
+    "@aws-sdk/util-dynamodb": "^3.46.0"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
